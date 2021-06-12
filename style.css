@@ -1,0 +1,126 @@
+html{
+  font-family: Arial;
+}
+header{
+  color: white;
+  background-color: #61135F;
+  height: 50px;
+  top: 0px;
+  margin: -7.5px;
+  margin-top: -20px;
+
+}
+h1{
+  padding-left: 10px;
+}
+p{
+  margin-bottom: 30px;
+}
+main{
+  margin: 5px;
+}
+footer{
+  padding: 0.5em;
+  color: #f9f8f4;
+  background-color: #5A379F;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  font-weight: bold;
+  margin: -7.5px;
+  width: 100.5%;
+}
+/* Validation Links */
+#validationLink{
+  font-weight: bold;
+  color: #5A379F;
+  text-decoration: none;
+}
+#validationLink:hover{
+  background-color: orange;
+}
+
+/* NAVIGATION */
+nav{
+  background-color: #5A379F;
+  margin-left: -7.5px;
+  width: 100.8%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.linkList a{
+  display: block;
+  width: 140px;
+  background-color: #5A379F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.linkList{
+  float: left;
+}
+.linkList a:hover{
+    display: block;
+    background-color: orange;
+}
+#currentPage{
+  display: block;
+  width: 140px;
+  background-color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  float: left;
+
+}
+video{
+  width: 40%;
+  height: auto;
+}
+/* Discovery Log */
+.logText{
+  margin-right: 30%;
+  margin-bottom: 30px;
+}
+/* Discovery Log CSS */
+
+.HTMLcolor{
+  color: red;
+  font-weight: bold;
+}
+.CSScolor{
+  color: green;
+  font-weight: bold;
+}
+#ID{
+  color: blue;
+  font-weight: bold;
+}
+/* Literature Review CSS */
+#referenceContainer li{
+  padding: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.reviewText{
+  padding: 10px;
+}
+.reference{
+  font-weight: bold;
+}
+.reviewLink{
+  color: #5A379F;
+  font-weight: bold;
+  text-decoration: none;
+}
+.reviewLink:hover{
+  background-color: orange;
+}

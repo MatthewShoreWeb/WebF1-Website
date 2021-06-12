@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+  <html lang="en">
+
+<head>
+  <link rel="icon" href="Icon.ico">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title> Picture Gallery </title>
+</head>
+
+<body>
+  <header>
+     <h1> Picture Gallery </h1>
+  </header>
+  <nav>
+    <ul>
+      <li class="linkList"><a href="index.html"> Home Page </a></li>
+      <li class="linkList"><a href="log.html"> Discovery Log </a></li>
+      <li class="linkList"><a href="review.html"> Literature Review </a></li>
+      <li id="currentPage"> Picture Gallery </li>
+      <li class="linkList"><a href="svg.html"> SVG Dog </a></li>
+
+    </ul>
+  </nav>
+  <div>
+    <a id="validationLink" href="https://validator.w3.org/nu/?doc=http%3A%2F%2F879148.web1.rdfx.org%2Fgallery.html"> Check Validation Here </a>
+    <p> Pictures done using the picture tag - adjust the width of the screen to see the image size adjust accordingly. </p>
+  </div>
+  <main>
+
+    <picture>
+      <source media="(min-width: 1500px)"
+              srcset="Jellyfish-Large.jpg"/>
+      <source media="(max-width: 256px)"
+              srcset="Jellyfish-Medium.jpg"/>
+        <source media="(max-width: 1024px)"
+              srcset="Jellyfish-Small.jpg"/>
+      <img src="Jellyfish.jpg" alt="Picture"/>
+     </picture>
+
+     <picture>
+       <source media="(min-width: 1500px)"
+               srcset="Desert-Large.jpg"/>
+       <source media="(max-width: 256px)"
+               srcset="Desert-Medium.jpg"/>
+         <source media="(max-width: 1024px)"
+               srcset="Desert-Small.jpg"/>
+       <img src="Desert-Medium.jpg" alt="Picture"/>
+      </picture>
+
+      <picture>
+        <source media="(min-width: 1500px)"
+                srcset="Koala-Large.jpg"/>
+        <source media="(max-width: 256px)"
+                srcset="Koala-Medium.jpg"/>
+          <source media="(max-width: 1024px)"
+                srcset="Koala-Small.jpg"/>
+        <img src="Koala-Medium.jpg" alt="Picture"/>
+       </picture>
+
+       <picture>
+         <source media="(min-width: 1500px)"
+                 srcset="Penguins-Large.jpg"/>
+         <source media="(max-width: 256px)"
+                 srcset="Penguins-Medium.jpg"/>
+           <source media="(max-width: 1024px)"
+                 srcset="Penguins-Small.jpg"/>
+         <img src="Penguins-Medium.jpg" alt="Picture"/>
+        </picture>
+
+
+  </main>
+
+<footer> UP879148 </footer>
+</body>
+
+
+</html>
